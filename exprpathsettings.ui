@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>exprPathSettings</class>
+ <widget class="QDialog" name="exprPathSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>769</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Set Expression Names and Paths</string>
+  </property>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="expr1Label">
+      <property name="text">
+       <string>Expression 1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr1Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr1Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse1">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>60</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="expr2Label">
+      <property name="text">
+       <string>Expression 2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr2Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr2Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse2">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="expr3Label">
+      <property name="text">
+       <string>Expression 3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr3Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr3Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse3">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_4">
+    <item>
+     <widget class="QLabel" name="expr4Label">
+      <property name="text">
+       <string>Expression 4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr4Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr4Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse4">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>210</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QLabel" name="expr5Label">
+      <property name="text">
+       <string>Expression 5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr5Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr5Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse5">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>260</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_6">
+    <item>
+     <widget class="QLabel" name="expr6Label">
+      <property name="text">
+       <string>Expression 6</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr6Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr6Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse6">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>651</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <widget class="QLabel" name="expr7Label">
+      <property name="text">
+       <string>Expression 7</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr7Name">
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="expr7Path"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="browse7">
+      <property name="text">
+       <string>Browse</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>3</y>
+     <width>77</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="okButton">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Ok</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="cancelButton">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Cancel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
